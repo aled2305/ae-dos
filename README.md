@@ -5,6 +5,28 @@
 [![jquery][jQuery-shield]][jQuery-url]
 [![Bootstrap][fontawesome-shield]][fontawesome-url]
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/aled2305/ae-dos">
+    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  </a>
+
+  <h3 align="center">AE-DOS</h3>
+
+  <p align="center">
+    My awesome home automation dashboard!
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/aled2305/ae-dos/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/aled2305/ae-dos/issues">Request Feature</a>
+    ·
+  </p>
+</p>
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/aled2305/ae-dos?color=brightgreen&style=for-the-badge
