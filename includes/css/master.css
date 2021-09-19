@@ -1,0 +1,35 @@
+@import "../fonts/darkmode-on/darkmodeon.css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--colour-background);
+  font-family: darkmodeon ,sans-serif;
+}
+
+/* Variables */
+.theme-light {
+  --colour-background: #edf0f3;
+  --colour-primary: #f39d21;
+  --colour-secondary: #2ec4b6;
+  /* Tiles */
+  --colour-tile-background: #ffffff;
+  --colour-tile-shadow: #adadad;
+}
+.theme-dark {
+  --colour-background: #182341;
+  --colour-primary: #f39d21;
+  --colour-secondary: #2ec4b6;
+  /* Tiles */
+  --colour-tile-background: #253456;
+  --colour-tile-shadow: #0c111c;
+}
+
+/* Tiles */
+.tile {
+    background: var(--colour-tile-background);
+    -webkit-box-shadow: 0px 0px 50px -15px var(--colour-tile-shadow);
+    box-shadow: 0px 0px 50px -15px var(--colour-tile-shadow);
+}
