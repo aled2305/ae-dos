@@ -1,5 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 [![Bootstrap][bootstrap-shield]][bootstrap-url]
 [![jquery][jQuery-shield]][jQuery-url]
@@ -29,11 +27,7 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/aled2305/ae-dos?color=brightgreen&style=for-the-badge
-[contributors-url]: https://github.com/aled2305/ae-dos/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/aled2305/ae-dos.svg?style=for-the-badge
-[issues-url]: https://github.com/aled2305/ae-dos/issues
-[license-shield]: https://img.shields.io/github/license/aled2305/ae-dos.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/License-GNU%20AGPLv3-orange?style=for-the-badge
 [license-url]: https://github.com/aled2305/ae-dos/blob/master/LICENSE
 [bootstrap-shield]: https://img.shields.io/badge/Bootstrap-v5.1.1-blueviolet?style=for-the-badge
 [bootstrap-url]: https://getbootstrap.com/
