@@ -14,13 +14,47 @@
 
   </head>
   <body>
-    <div class="container-fluid p-3">
-      <div class="row">
+    <div class="container-fluid h-100 p-3">
+      <div class="row h-100">
         <div class="col-lg-8">
-          <div class="tile"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tile">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="greeting float-start">Good Night<img src="./includes/images/emoji/animated/sleeping_face.gif"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="time float-end">12:30pm</div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="date float-end">Monday, 20th September 2021</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row room-menu">
+                  <div class="col-lg-2 room-menu-item">Kitchen</div>
+                  <div class="col-lg-2 room-menu-item active">Living Room</div>
+                  <div class="col-lg-2 room-menu-item">Bedroom</div>
+                  <div class="col-lg-2 room-menu-item">Office</div>
+                  <div class="col-lg-2 room-menu-item">Hall/Landing</div>
+                  <div class="col-lg-2 room-menu-item">Spare Room</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-4">
-          <div class="tile"></div>
+          <div class="tile h-100"></div>
         </div>
       </div>
     </div>
