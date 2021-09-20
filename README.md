@@ -1,3 +1,4 @@
+
 [![License][license-shield]][license-url]
 [![Bootstrap][bootstrap-shield]][bootstrap-url]
 [![jquery][jQuery-shield]][jQuery-url]
@@ -23,6 +24,23 @@
     ·
   </p>
 </p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#references">References</a>
+    </li>
+  </ol>
+</details>
+
+
+<!-- REFERENCES -->
+### References
+
+Useful future references
+* [Joy Pixels (Animated Emoji)](https://www.joypixels.com/emoji/animated)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
