@@ -41,6 +41,7 @@
 
 Useful future references
 * [Joy Pixels (Animated Emoji)](https://www.joypixels.com/emoji/animated)
+* [Dashboard Inspiration](https://youtu.be/_FktMQSD5LE?t=5)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
