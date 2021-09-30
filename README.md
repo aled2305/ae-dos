@@ -18,7 +18,7 @@
   <h3 align="center">CRTL</h3>
 
   <p align="center">
-    My awesome home automation dashboard!
+    The customisable smart home dashboard system
     <br />
     <br />
     ·
