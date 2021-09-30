@@ -11,9 +11,10 @@
   <a href="https://github.com/aled2305/ae-dos">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
-
-![CTRL Logo](https://github.com/aled2305/crtl/blob/master/includes/images/logo/colour_wire@0.25x.png?raw=true)
-
+<p align="center">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/aled2305/crtl/blob/master/includes/images/logo/colour_wire@0.25x.png?raw=true">
+    <img src="https://github.com/aled2305/crtl/raw/master/includes/images/logo/colour_wire@0.25x.png?raw=true" alt="CTRL Logo" width="175px"></a>
+</p>
   <h3 align="center">CRTL</h3>
 
   <p align="center">
