@@ -12,7 +12,7 @@
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-![CTRL Logo](https://github.com/aled2305/crtl/tree/master/includes/images/logo/colour_wire@0.25x.png?raw=true)
+![CTRL Logo](https://github.com/aled2305/crtl/blob/master/includes/images/logo/colour_wire@0.25x.png?raw=true)
 
   <h3 align="center">CRTL</h3>
 
