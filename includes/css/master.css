@@ -1,4 +1,5 @@
 @import "../fonts/darkmode-on/darkmodeon.css";
+@import "./toggle.css";
 html,
 body {
   margin: 0;
@@ -9,6 +10,12 @@ body {
   font-weight: 300;
   background-color: var(--colour-background);
   font-family: darkmodeon ,sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Variables */
@@ -20,6 +27,8 @@ body {
   /* Tiles */
   --colour-tile-background: #ffffff;
   --colour-tile-shadow: #adadad;
+  /* Modal */
+  --filter-close-button: invert(0) grayscale(100%) brightness(200%);
 }
 .theme-dark {
   --colour-background: #182341;
@@ -29,9 +38,11 @@ body {
   /* Tiles */
   --colour-tile-background: #253456;
   --colour-tile-shadow: #0c111c;
+  /* Modal */
+  --filter-close-button: invert(1) grayscale(100%) brightness(200%);
 }
 
-/* Tiles */
+/* ------------------------ Tiles ------------------------ */
 .tile {
     padding: 10px;
     background: var(--colour-tile-background);
@@ -44,6 +55,8 @@ body {
 .greeting img {
     height: 50px;
 }
+
+/* Menu */
 .room-menu {
     margin-top: 20px;
     padding: 20px 0 0 0;
@@ -67,3 +80,73 @@ body {
 .room-menu-item.active::after {
     border-top: 2px solid var(--colour-primary);
 }
+
+/* Items */
+.item {
+    text-align: center;
+    border: 1px solid var(--colour-background);
+    border-radius: 5px;
+    padding: 0 0 9px 0;
+}
+.item-icon {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-title {
+    text-transform: uppercase;
+    padding: 4px 0 8px 0;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.item-icon > svg {
+    fill: var(--colour-background);
+    transition: fill 1.5s ease;
+}
+svg#icon-light-kitchen-table {
+    fill: rgb(127 255 212);
+    filter: drop-shadow(0px 0px 10px rgb(127 255 212 / 1));
+}
+
+/* Modals */
+.modal-content {
+    background-color: var(--colour-tile-background);
+}
+.btn-close {
+  filter: var(--filter-close-button);
+}
+ul#myTab {
+    margin-top: 20px;
+}
+div#picker {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    padding: 40px;
+}
+.nav-link, .nav-link:focus, .nav-link:hover {
+    color: var(--colour-body)
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: var(--colour-body) var(--colour-body) var(--colour-body);
+    isolation: isolate;
+}
+/* Light Control */
+.light-modal > svg {
+    transition: fill 1.5s ease;
+}
+
+/* Icons */
+  /* Lamp */
+/* .item-icon.on > svg#lamp > .cls-1{fill:url(#New_Gradient_Swatch_copy_12);}
+.item-icon.on > svg#lamp > .cls-2{fill:url(#New_Gradient_Swatch_copy_12-2);}
+.item-icon.on > svg#lamp > .cls-3{fill:url(#New_Gradient_Swatch_copy_12-3);}
+.item-icon.on > svg#lamp > .cls-4{fill:url(#New_Gradient_Swatch_copy_12-4);}
+.item-icon.on > svg#lamp > .cls-5{fill:url(#New_Gradient_Swatch_copy_12-5);}
+.item-icon.on > svg#lamp > .cls-6{fill:url(#New_Gradient_Swatch_copy_12-6);}
+.item-icon.on > svg#lamp > .cls-7{fill:url(#New_Gradient_Swatch_copy_12-7);}
+.item-icon.on > svg#lamp > .cls-8{fill:url(#New_Gradient_Swatch_copy_12-8);} */
+
+  /* Cast */
+.item-icon.on > svg#cast > .cls-1{fill:url(#AE-DOS_Orange_Gradient);}
+.item-icon.on > svg#cast > .cls-2{fill:url(#AE-DOS_Orange_Gradient-2);}
